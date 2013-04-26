@@ -16,6 +16,20 @@
 		04571085172A013400A82D51 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04571084172A013400A82D51 /* Default.png */; };
 		04571087172A013400A82D51 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04571086172A013400A82D51 /* Default@2x.png */; };
 		04571089172A013400A82D51 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04571088172A013400A82D51 /* Default-568h@2x.png */; };
+		04571092172A014900A82D51 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04571091172A014900A82D51 /* RootViewController.m */; };
+		04571094172A092800A82D51 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04571093172A092800A82D51 /* libsqlite3.0.dylib */; };
+		04571096172A095100A82D51 /* plustimes.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 04571095172A095100A82D51 /* plustimes.sqlite */; };
+		0457109A172A0B8500A82D51 /* Csdict.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04571099172A0B8500A82D51 /* Csdict.plist */; };
+		045710AB172A0FDB00A82D51 /* DatabaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457109F172A0FDB00A82D51 /* DatabaseConfiguration.m */; };
+		045710AC172A0FDB00A82D51 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 045710A1172A0FDB00A82D51 /* Helper.m */; };
+		045710AD172A0FDB00A82D51 /* INUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 045710A3172A0FDB00A82D51 /* INUtility.m */; };
+		045710AE172A0FDB00A82D51 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 045710A5172A0FDB00A82D51 /* Model.m */; };
+		045710AF172A0FDB00A82D51 /* University.m in Sources */ = {isa = PBXBuildFile; fileRef = 045710A8172A0FDB00A82D51 /* University.m */; };
+		045710B0172A0FDB00A82D51 /* UniversityData.m in Sources */ = {isa = PBXBuildFile; fileRef = 045710AA172A0FDB00A82D51 /* UniversityData.m */; };
+		045710B7172A143900A82D51 /* CityList.m in Sources */ = {isa = PBXBuildFile; fileRef = 045710B4172A143800A82D51 /* CityList.m */; };
+		045710B8172A143900A82D51 /* CityListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 045710B6172A143900A82D51 /* CityListData.m */; };
+		045710BA172A203D00A82D51 /* cityList.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 045710B9172A203D00A82D51 /* cityList.sqlite */; };
+		045710BF172A2C7A00A82D51 /* MyDatebaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045710BE172A2C7A00A82D51 /* MyDatebaseCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +46,31 @@
 		04571084172A013400A82D51 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		04571086172A013400A82D51 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		04571088172A013400A82D51 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04571090172A014900A82D51 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		04571091172A014900A82D51 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		04571093172A092800A82D51 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		04571095172A095100A82D51 /* plustimes.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = plustimes.sqlite; sourceTree = "<group>"; };
+		04571099172A0B8500A82D51 /* Csdict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Csdict.plist; sourceTree = "<group>"; };
+		0457109D172A0FDB00A82D51 /* CONST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CONST.h; sourceTree = "<group>"; };
+		0457109E172A0FDB00A82D51 /* DatabaseConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseConfiguration.h; sourceTree = "<group>"; };
+		0457109F172A0FDB00A82D51 /* DatabaseConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseConfiguration.m; sourceTree = "<group>"; };
+		045710A0172A0FDB00A82D51 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		045710A1172A0FDB00A82D51 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		045710A2172A0FDB00A82D51 /* INUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INUtility.h; sourceTree = "<group>"; };
+		045710A3172A0FDB00A82D51 /* INUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INUtility.m; sourceTree = "<group>"; };
+		045710A4172A0FDB00A82D51 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		045710A5172A0FDB00A82D51 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		045710A7172A0FDB00A82D51 /* University.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = University.h; sourceTree = "<group>"; };
+		045710A8172A0FDB00A82D51 /* University.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = University.m; sourceTree = "<group>"; };
+		045710A9172A0FDB00A82D51 /* UniversityData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversityData.h; sourceTree = "<group>"; };
+		045710AA172A0FDB00A82D51 /* UniversityData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversityData.m; sourceTree = "<group>"; };
+		045710B3172A143800A82D51 /* CityList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityList.h; sourceTree = "<group>"; };
+		045710B4172A143800A82D51 /* CityList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityList.m; sourceTree = "<group>"; };
+		045710B5172A143900A82D51 /* CityListData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityListData.h; sourceTree = "<group>"; };
+		045710B6172A143900A82D51 /* CityListData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListData.m; sourceTree = "<group>"; };
+		045710B9172A203D00A82D51 /* cityList.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cityList.sqlite; sourceTree = "<group>"; };
+		045710BD172A2C7A00A82D51 /* MyDatebaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDatebaseCell.h; sourceTree = "<group>"; };
+		045710BE172A2C7A00A82D51 /* MyDatebaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDatebaseCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04571094172A092800A82D51 /* libsqlite3.0.dylib in Frameworks */,
 				04571073172A013400A82D51 /* UIKit.framework in Frameworks */,
 				04571075172A013400A82D51 /* Foundation.framework in Frameworks */,
 				04571077172A013400A82D51 /* CoreGraphics.framework in Frameworks */,
@@ -51,7 +91,8 @@
 		04571066172A013400A82D51 = {
 			isa = PBXGroup;
 			children = (
-				04571078172A013400A82D51 /* ChaXun */,
+				04571093172A092800A82D51 /* libsqlite3.0.dylib */,
+				045710BB172A2C4500A82D51 /* New Group */,
 				04571071172A013400A82D51 /* Frameworks */,
 				04571070172A013400A82D51 /* Products */,
 			);
@@ -78,6 +119,8 @@
 		04571078172A013400A82D51 /* ChaXun */ = {
 			isa = PBXGroup;
 			children = (
+				0457109B172A0FB200A82D51 /* sql3 */,
+				0457108F172A013B00A82D51 /* two */,
 				04571081172A013400A82D51 /* AppDelegate.h */,
 				04571082172A013400A82D51 /* AppDelegate.m */,
 				04571079172A013400A82D51 /* Supporting Files */,
@@ -88,6 +131,9 @@
 		04571079172A013400A82D51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				045710B9172A203D00A82D51 /* cityList.sqlite */,
+				04571099172A0B8500A82D51 /* Csdict.plist */,
+				04571095172A095100A82D51 /* plustimes.sqlite */,
 				0457107A172A013400A82D51 /* ChaXun-Info.plist */,
 				0457107B172A013400A82D51 /* InfoPlist.strings */,
 				0457107E172A013400A82D51 /* main.m */,
@@ -97,6 +143,73 @@
 				04571088172A013400A82D51 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0457108F172A013B00A82D51 /* two */ = {
+			isa = PBXGroup;
+			children = (
+				04571090172A014900A82D51 /* RootViewController.h */,
+				04571091172A014900A82D51 /* RootViewController.m */,
+			);
+			name = two;
+			sourceTree = "<group>";
+		};
+		0457109B172A0FB200A82D51 /* sql3 */ = {
+			isa = PBXGroup;
+			children = (
+				045710B3172A143800A82D51 /* CityList.h */,
+				045710B4172A143800A82D51 /* CityList.m */,
+				045710B5172A143900A82D51 /* CityListData.h */,
+				045710B6172A143900A82D51 /* CityListData.m */,
+				0457109C172A0FDB00A82D51 /* Database */,
+			);
+			name = sql3;
+			sourceTree = "<group>";
+		};
+		0457109C172A0FDB00A82D51 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0457109D172A0FDB00A82D51 /* CONST.h */,
+				0457109E172A0FDB00A82D51 /* DatabaseConfiguration.h */,
+				0457109F172A0FDB00A82D51 /* DatabaseConfiguration.m */,
+				045710A0172A0FDB00A82D51 /* Helper.h */,
+				045710A1172A0FDB00A82D51 /* Helper.m */,
+				045710A2172A0FDB00A82D51 /* INUtility.h */,
+				045710A3172A0FDB00A82D51 /* INUtility.m */,
+				045710A4172A0FDB00A82D51 /* Model.h */,
+				045710A5172A0FDB00A82D51 /* Model.m */,
+				045710A6172A0FDB00A82D51 /* Table */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		045710A6172A0FDB00A82D51 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				045710A7172A0FDB00A82D51 /* University.h */,
+				045710A8172A0FDB00A82D51 /* University.m */,
+				045710A9172A0FDB00A82D51 /* UniversityData.h */,
+				045710AA172A0FDB00A82D51 /* UniversityData.m */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		045710BB172A2C4500A82D51 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				045710BC172A2C5400A82D51 /* UI */,
+				04571078172A013400A82D51 /* ChaXun */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		045710BC172A2C5400A82D51 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				045710BD172A2C7A00A82D51 /* MyDatebaseCell.h */,
+				045710BE172A2C7A00A82D51 /* MyDatebaseCell.m */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +267,9 @@
 				04571085172A013400A82D51 /* Default.png in Resources */,
 				04571087172A013400A82D51 /* Default@2x.png in Resources */,
 				04571089172A013400A82D51 /* Default-568h@2x.png in Resources */,
+				04571096172A095100A82D51 /* plustimes.sqlite in Resources */,
+				0457109A172A0B8500A82D51 /* Csdict.plist in Resources */,
+				045710BA172A203D00A82D51 /* cityList.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +282,16 @@
 			files = (
 				0457107F172A013400A82D51 /* main.m in Sources */,
 				04571083172A013400A82D51 /* AppDelegate.m in Sources */,
+				04571092172A014900A82D51 /* RootViewController.m in Sources */,
+				045710AB172A0FDB00A82D51 /* DatabaseConfiguration.m in Sources */,
+				045710AC172A0FDB00A82D51 /* Helper.m in Sources */,
+				045710AD172A0FDB00A82D51 /* INUtility.m in Sources */,
+				045710AE172A0FDB00A82D51 /* Model.m in Sources */,
+				045710AF172A0FDB00A82D51 /* University.m in Sources */,
+				045710B0172A0FDB00A82D51 /* UniversityData.m in Sources */,
+				045710B7172A143900A82D51 /* CityList.m in Sources */,
+				045710B8172A143900A82D51 /* CityListData.m in Sources */,
+				045710BF172A2C7A00A82D51 /* MyDatebaseCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

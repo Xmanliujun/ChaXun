@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootViewController.h"
+#import "DatabaseConfiguration.h"
 @implementation AppDelegate
 
 - (void)dealloc
@@ -21,6 +22,19 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+     [[DatabaseConfiguration instance] openDatabase];
+    
+    
+    RootViewController *  rvt = [[[RootViewController alloc] init] autorelease];
+                                 
+    UINavigationController * nav = [[[UINavigationController alloc] initWithRootViewController:rvt] autorelease];
+    
+    self.window.rootViewController = nav;
+    
+   
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
